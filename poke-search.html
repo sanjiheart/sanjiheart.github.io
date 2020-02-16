@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>神奇寶貝快查</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 offset-m3">
+                <form onsubmit="return false;">
+                    <div class="card darken-1">
+                        <div class="card-content light-blue-text">
+                            <span class="card-title">速翻卡</span>
+                            <div class="input-field">
+                                <i class="material-icons prefix">translate</i>
+                                <input type="text" class="validate" id="source">
+                                <label for="source">各國語言神奇寶貝、招式或道具...等</label>
+                            </div>
+                        </div>
+                        <div class="card-action center">
+                            <button type="submit" class="waves-effect waves-light btn light-blue"
+                                id="convert">翻譯或直接前往神奇寶貝百科</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/poke-search.js"></script>
+</body>
+
+</html>
