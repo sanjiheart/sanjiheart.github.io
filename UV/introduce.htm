@@ -1,0 +1,75 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>新增網頁1</title>
+<style type="text/css">
+<!--
+body {font-size: 12px; font-family: 新細明體; color : #000000;}
+td {font-size: 12px;}
+a:link {color:#ff8428; text-decoration:none;}
+a:visited {color:#ff8428; text-decoration:none;}
+a:active {color:silver; text-decoration:none;}
+a:hover {color:#0000ff; text-decoration:underline overline;background-color:#cfffff; color:#33ccff;}
+-->
+</style> 
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'buttonIA1.gif', /*url*/'buttonIA2.gif', /*url*/'buttonIB1.gif', /*url*/'buttonIB2.gif', /*url*/'buttonIC1.gif', /*url*/'buttonIC2.gif', /*url*/'buttonIF1.gif', /*url*/'buttonIF2.gif', /*url*/'buttonIE1.gif', /*url*/'buttonIE2.gif', /*url*/'buttonID1.gif', /*url*/'buttonID2.gif')">
+<table border="0" width="600" id="table1" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="100" align="center">
+		<a target="introduce" href="introduce_inA.htm">
+		<img border="0" id="img3" src="buttonIA3.gif" height="20" width="100" alt="主唱大甜" fp-style="fp-btn: Glass Rectangle 4; fp-font: 文鼎新藝體; fp-font-size: 8; fp-transparent: 1; fp-orig: 0" fp-title="主唱大甜" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonIA1.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonIA3.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonIA2.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonIA1.gif')"></a></td>
+		<td width="100" align="center">
+		<a target="introduce" href="introduce_inB.htm">
+		<img border="0" id="img4" src="buttonIB3.gif" height="20" width="100" alt="吉他手阿達" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttonIB1.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttonIB3.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttonIB2.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttonIB1.gif')" fp-style="fp-btn: Glass Rectangle 4; fp-font: 文鼎新藝體; fp-font-size: 8; fp-transparent: 1" fp-title="吉他手阿達"></a></td>
+		<td width="100" align="center">
+		<a target="introduce" href="introduce_inC.htm">
+		<img border="0" id="img5" src="buttonIC3.gif" height="20" width="100" alt="吉他手杯樂" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonIC1.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonIC3.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonIC2.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonIC1.gif')" fp-style="fp-btn: Glass Rectangle 4; fp-font: 文鼎新藝體; fp-font-size: 8; fp-transparent: 1" fp-title="吉他手杯樂"></a></td>
+		<td width="100" align="center">
+		<a target="introduce" href="introduce_inD.htm">
+		<img border="0" id="img9" src="buttonID3.gif" height="20" width="100" alt="貝斯手阿笙" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'buttonID1.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'buttonID3.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'buttonID2.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'buttonID1.gif')" fp-style="fp-btn: Glass Rectangle 4; fp-font: 文鼎新藝體; fp-font-size: 8; fp-transparent: 1" fp-title="貝斯手阿笙"></a></td>
+		<td width="100" align="center">
+		<a target="introduce" href="introduce_inE.htm">
+		<img border="0" id="img8" src="buttonIE3.gif" height="20" width="100" alt="鼓手咻兒" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'buttonIE1.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'buttonIE3.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'buttonIE2.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'buttonIE1.gif')" fp-style="fp-btn: Glass Rectangle 4; fp-font: 文鼎新藝體; fp-font-size: 8; fp-transparent: 1" fp-title="鼓手咻兒"></a></td>
+		<td width="100" align="center">
+		<a target="introduce" href="introduce_inF.htm">
+		<img border="0" id="img7" src="buttonIF3.gif" height="20" width="100" alt="KeyboardTony" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'buttonIF1.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'buttonIF3.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'buttonIF2.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'buttonIF1.gif')" fp-style="fp-btn: Glass Rectangle 4; fp-font: 文鼎新藝體; fp-font-size: 8; fp-transparent: 1" fp-title="KeyboardTony"></a></td>
+	</tr>
+	<tr>
+		<td colspan="6">
+		<p align="center">
+		<iframe name="introduce" width="585" height="390" src="introduce_in.htm" border="0" frameborder="0" scrolling="no">
+		您的瀏覽器不支援內置框架或目前的設定為不顯示內置框架。</iframe></td>
+	</tr>
+</table>
+
+</body>
+
+</html>
